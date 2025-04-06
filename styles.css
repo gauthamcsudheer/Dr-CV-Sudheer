@@ -11,6 +11,11 @@ body {
   color: #333;
 }
 
+/* Add margin to all list items */
+li {
+  margin-bottom: 10px;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -198,6 +203,23 @@ nav .container {
 .teaching-item h3 {
   color: #3498db;
   margin-bottom: 1rem;
+}
+
+#edited-works{
+  margin-bottom: 2rem;
+}
+
+.glink{
+  margin-bottom: 2rem;
+  display: flex;
+  padding-left: 150px;
+  align-items: center;
+  gap: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: #3498db;
 }
 
 /* Education Section */
